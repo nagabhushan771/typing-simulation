@@ -38,11 +38,15 @@
       .speed-container {
         padding: 10px 20px;
         background-color: rgb(195, 128, 5);
+        font-size: 20px;
       }
 
       .speed-container input[type="number"] {
         width: 50px;
         border: none;
+        background: rgb(249, 176, 41);
+        height: 30px;
+        font-size: 20px;
       }
       .speed-container input[type="number"]:focus{
         outline: none;
@@ -72,7 +76,7 @@
       </div>
       <div class="speed-container">
         <label for="speed">Speed: </label>
-        <input type="number" name="speed" id="speed" value="1" />
+        <input type="number" name="speed" id="speed" value="1" max="10" min="1" step="1"/>
       </div>
     </div>
 
